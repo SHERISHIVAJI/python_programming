@@ -9,5 +9,7 @@ directory_path = '/'
 contents = os.listdir(directory_path)
 
 #Print each file and directory name
+print(contents)
+print("\n\n")
 for item in contents:
     print(item)
